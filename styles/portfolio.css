@@ -87,6 +87,10 @@ p {
     font-size: 44px;
   }
 
+  h3 {
+    font-size: 42px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -95,4 +99,18 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.inquiry {
+  background: var(--secondary-color);
+  padding: 80px;
+}
+
+.footer i {
+  color: var(--branding-color);
+  padding: 20px;
+}
+
+.social-box {
+  display: inline-block;
+  text-align: center;
 }
