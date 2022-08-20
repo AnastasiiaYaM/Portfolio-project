@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -38,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -106,7 +110,7 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 nav {
@@ -178,7 +182,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
@@ -186,11 +190,7 @@ footer .social-links a:hover {
   }
 
   h3 {
-    font-size: 42px;
-  }
-
-  .hero {
-    padding: 80px 20px;
+    font-size: 26px;
   }
 
   .content {
@@ -202,13 +202,4 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
-}
-.inquiry {
-  background: var(--secondary-color);
-  padding: 80px;
-}
-
-.footer i {
-  color: var(--branding-color);
-  padding: 20px;
 }

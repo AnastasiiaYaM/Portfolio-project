@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anastasiia Melenevych - portfolio</title>
+    <meta
+      name="description"
+      content="Anastasiia's Melenevych portfolio. Anastasiia is a front-end engineer based in Europe. "
+    />
+    <title>Anastasiia Melenevych - front-end developer </title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,21 +34,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo" alt="Homepage logo" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo"
+            alt="Anastasiia Logo"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Anastasiia"> About </a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Anastasiia's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Anastasiia"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -73,15 +81,12 @@
           <div class="project-desciption">
             <h2 class="mb-5">Mediterranean diet Project</h2>
             <p class="mb-5 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
+              I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page about Mediterranean diet. The page utilizes JavaScript functions to create user interaction.
             </p>
             <a
-              href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/873/950/original/Mediterranean_Diet.html?1653148486"
+              href="/work.html"
               class="btn btn-branding-outline"
-              title="Weather project"
+              title="Mediterranean diet project preview"
               >Learn more
             </a>
           </div>
@@ -92,14 +97,12 @@
           <div class="project-desciption">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.
             </p>
             <a
-              href="https://sensational-douhua-a0a8b4.netlify.app"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Weather project preview"
             >
               Learn more
             </a>
@@ -109,38 +112,69 @@
           <img
             src="images/weather.png"
             class="img-fluid rounded"
-            alt="Weather App"
+            alt="Weather App preview"
           />
         </div>
       </div>
     </div>
-<footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h4>Work Inquiry</h4>
-            <p class="text-muted">Let`s work together and I`ll help you by all my best</p>
-          </div>
-          <div>
-            <a href="/contact.html" class="btn btn-branding mt-3"> Contact me </a>
-          </div>
+<footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:melenevych@ukr.net" class="email-link">
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Anastasiia"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:melenevych@ukr.net"
+          class="email-link"
+          title="Email Anastasiia"
+        >
           melenevych@ukr.net
         </a>
-        </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/AnastasiiaYaM" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.instragram.com/anastasiiamelenevych" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100004291719981" target="_blank">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </div>
-      </footer>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/AnastasiiaYaM"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instragram.com/anastasiiamelenevych"
+          target="_blank"
+          title="Instragram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100004291719981"
+          target="_blank"
+          title="Facebook Profile"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Anastasiia Melenevych and is
+        <a
+          href="https://github.com/AnastasiiaYaM/Portfolio-project"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
     </div>
   </body>
 </html>
